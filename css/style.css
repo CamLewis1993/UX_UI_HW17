@@ -1,17 +1,18 @@
 @font-face {
   font-family: demode;
-  src: url(../demode/Demode.ttf);
+  src: url(css/demode/Demode.ttf);
 }
 @font-face {
   font-family: Brygada1918;
-  src: url(../Brygada1918-Family/Brygada1918-Regular.otf);
+  src: url(css/Brygada1918-Family/Brygada1918-Regular.otf);
 }
 @font-face {
   font-family: caviardreams;
-  src: url(../caviar_dreams/CaviarDreams.ttf);
+  src: url(css/caviar_dreams/CaviarDreams.ttf);
 }
 body {
   margin: 0;
+  background-color: #F8E4D7;
 }
 header {
   background-color: #F8E4D7;
@@ -19,24 +20,35 @@ header {
   font-family: demode;
 }
 header nav {
-  float: right;
+  font-family: caviardreams;
   color: white;
+  float: right;
+  vertical-align: top;
+  position: absolute; 
+  top: 50px; 
+  right: 30px;
 }
 nav a {
   display: inline-block;
   padding: 0px 5px;
 }
 .content {
-  max-width: 300px;
+  font-family: Brygada1918;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px; 
   background-color: #F8E4D7;
   text-align: center;
+  position: relative;
+  bottom: -200px;
 }
 footer {
+  position: absolute;
   background-color: #F8E4D7;
   padding: 5px;
   color: white;
+  bottom: 0;
+  height: 90px;
 }
 footer div {
   list-style: none;
