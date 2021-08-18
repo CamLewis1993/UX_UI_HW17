@@ -10,6 +10,10 @@
   font-family: caviardreams;
   src: url(../caviar_dreams/CaviarDreams.ttf);
 }
+@font-face {
+  font-family: demodenegative;
+  src: url(../demode/Demode-Negative.ttf);
+}
 body {
   margin: 0;
   background-color: #F8E4D7;
@@ -17,8 +21,8 @@ body {
 header {
   background-color: #F8E4D7;
   padding: 15px;
-  font-family: demode;
-  font-size: 300px;
+  font-family: demodenegative;
+  font-size: large;
 
 }
 header nav {
@@ -31,6 +35,7 @@ header nav {
   right: 30px;
 }
 nav a {
+  font-size: medium;
   display: inline-block;
   padding: 0px 5px;
 }
@@ -62,8 +67,4 @@ footer a {
   display: inline-block;
   padding: 0px 7px;
   
-}
-header a h1 {
-  font-family: demode;
-  font-size: 300pt; 
 }
